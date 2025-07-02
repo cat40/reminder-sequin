@@ -11154,7 +11154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 144.78 67.31 0)
 			(effects
 				(font
@@ -11173,6 +11173,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2296"
 			(at 144.78 67.31 0)
 			(effects
 				(font
