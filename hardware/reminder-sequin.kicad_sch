@@ -6632,7 +6632,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 24.13 90.17 90)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.94 94.2848 0)
 			(effects
 				(font
@@ -6659,6 +6659,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 24.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1644 "
 			(at 24.13 95.25 0)
 			(effects
 				(font
@@ -6930,7 +6939,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 87.63 21.59 90)
 			(effects
 				(font
@@ -7026,7 +7035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 132.08 177.8 0)
 			(effects
 				(font
@@ -7256,7 +7265,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 187.96 26.6699 0)
 			(effects
 				(font
@@ -7410,7 +7419,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 153.67 26.6699 0)
 			(effects
 				(font
@@ -8046,7 +8055,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 176.53 26.6699 0)
 			(effects
 				(font
@@ -8222,7 +8231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 119.38 179.0699 0)
 			(effects
 				(font
@@ -8442,7 +8451,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 142.24 26.6699 0)
 			(effects
 				(font
@@ -8530,7 +8539,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 130.81 26.6699 0)
 			(effects
 				(font
@@ -8683,7 +8692,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 87.63 33.02 90)
 			(effects
 				(font
@@ -8992,7 +9001,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 165.1 26.6699 0)
 			(effects
 				(font
@@ -9080,7 +9089,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 210.82 26.6699 0)
 			(effects
 				(font
@@ -9853,7 +9862,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9509b8c0-b939-4a20-82eb-d62108e3ab8f")
 		(property "Reference" "TP1"
@@ -9874,7 +9883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 137.16 44.45 0)
 			(effects
 				(font
@@ -10460,7 +10469,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 69.85 27.9399 0)
 			(effects
 				(font
@@ -10613,7 +10622,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 34.29 50.8 90)
 			(effects
 				(font
@@ -10765,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15pF"
 			(at 24.13 104.14 90)
 			(effects
 				(font
@@ -10773,7 +10782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.94 108.2548 0)
 			(effects
 				(font
@@ -10792,6 +10801,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 24.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1644 "
 			(at 24.13 109.22 0)
 			(effects
 				(font
@@ -11136,7 +11154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 144.78 67.31 0)
 			(effects
 				(font
@@ -11262,7 +11280,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 240.03 69.85 90)
 			(effects
 				(font
@@ -11356,7 +11374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 218.44 129.54 0)
 			(effects
 				(font
@@ -11442,7 +11460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm"
 			(at 45.72 101.6 0)
 			(effects
 				(font
@@ -12100,7 +12118,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea3bc047-970f-4f20-b9c2-5bde2d6897fa")
 		(property "Reference" "TP2"
@@ -12121,7 +12139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 149.86 44.45 0)
 			(effects
 				(font
@@ -12739,7 +12757,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 199.39 26.6699 0)
 			(effects
 				(font

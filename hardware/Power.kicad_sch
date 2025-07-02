@@ -2342,7 +2342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_2466_1xAAA"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 38.1 58.166 90)
 			(effects
 				(font
@@ -2388,6 +2388,15 @@
 			)
 		)
 		(property "Cost" ""
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C47647"
 			(at 38.1 59.69 0)
 			(effects
 				(font
