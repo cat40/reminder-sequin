@@ -376,6 +376,128 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(layer "F.Cu")
+		(uuid "0ddca5fc-92da-44a2-b792-f067f213acee")
+		(at 182 79)
+		(descr "Mounting Hole 2.2mm, M2, ISO7380")
+		(tags "mounting hole 2.2mm m2 iso7380")
+		(property "Reference" "H4"
+			(at 0 -2.75 0)
+			(layer "F.SilkS")
+			(uuid "b0b33983-6596-4564-a7e0-d8cd6b65acf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.75 0)
+			(layer "F.Fab")
+			(uuid "f4bcfef9-babb-4425-ab14-e89d2c816724")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c439abb5-0b82-4b1f-99d8-24cc4f744ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e74b6866-9a66-416a-bb00-a51db0778b81")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e6b9eb5-66d2-42cf-9442-65c66ed8f2bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/8c1862a3-81b8-4714-b2d1-705b930d41cd")
+		(sheetname "Root")
+		(sheetfile "reminder-sequin.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "4166a2e0-17a9-4b3e-8614-f3d4bfd33a7b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "554525a8-2d6a-4c8e-a269-2089805dc723")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dc1332af-dd01-494e-b948-f0742f645274")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "9924263c-6f42-4306-98f6-29cf71a01b98")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "0e8fe62a-39ea-4adb-b15d-e22c8d6e502e")
@@ -2538,11 +2660,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2ecae231-ada6-479a-b639-2070d71f7bb3")
-		(at 153.99 83.5)
+		(at 163.8 79.4 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.17 0)
+			(at -1.8 -0.1 90)
 			(layer "F.SilkS")
 			(uuid "00930032-55fd-4fff-89f9-623dc02c1d11")
 			(effects
@@ -2553,7 +2675,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "6998d7e6-e7fc-4d16-9f86-6482eb0f2ad3")
 			(effects
@@ -2564,7 +2686,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2577,7 +2699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2590,7 +2712,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2603,7 +2725,7 @@
 			)
 		)
 		(property "Cost" ""
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2616,7 +2738,7 @@
 			)
 		)
 		(property "LCSC Part #" " C25744"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2634,16 +2756,6 @@
 		(sheetfile "reminder-sequin.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "94d2930a-bbb2-4256-a81e-c0ec7715f6b7")
-		)
-		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
 			(stroke
@@ -2654,14 +2766,14 @@
 			(uuid "7b0debf0-d083-4647-aa01-2a1da62236ed")
 		)
 		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "ac5e1aec-b043-49b0-9724-11ec63e15591")
+			(layer "F.SilkS")
+			(uuid "94d2930a-bbb2-4256-a81e-c0ec7715f6b7")
 		)
 		(fp_line
 			(start -0.93 0.47)
@@ -2674,16 +2786,6 @@
 			(uuid "c84bf3d8-6c55-4e4e-b0b7-d98d7584c788")
 		)
 		(fp_line
-			(start 0.93 -0.47)
-			(end 0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e37e4c80-c03f-434c-ba84-101f42f55faf")
-		)
-		(fp_line
 			(start 0.93 0.47)
 			(end -0.93 0.47)
 			(stroke
@@ -2694,14 +2796,24 @@
 			(uuid "978f4d1f-295a-4381-a966-f172527b5d49")
 		)
 		(fp_line
-			(start -0.525 -0.27)
-			(end 0.525 -0.27)
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "a30ca408-8beb-4a85-bb4a-f46252bc386e")
+			(layer "F.CrtYd")
+			(uuid "ac5e1aec-b043-49b0-9724-11ec63e15591")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e37e4c80-c03f-434c-ba84-101f42f55faf")
 		)
 		(fp_line
 			(start -0.525 0.27)
@@ -2714,16 +2826,6 @@
 			(uuid "3ec49d9b-bde1-4173-9165-cc30dbe54aad")
 		)
 		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3b803f43-ec6b-4208-87f4-dac9d33959af")
-		)
-		(fp_line
 			(start 0.525 0.27)
 			(end -0.525 0.27)
 			(stroke
@@ -2733,8 +2835,28 @@
 			(layer "F.Fab")
 			(uuid "4aa66054-69ca-4743-a3bf-066309556002")
 		)
+		(fp_line
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a30ca408-8beb-4a85-bb4a-f46252bc386e")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b803f43-ec6b-4208-87f4-dac9d33959af")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "eb90e8e1-6a01-4889-86b3-a545b4c28e85")
 			(effects
@@ -2745,7 +2867,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0)
+			(at -0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -2754,7 +2876,7 @@
 			(uuid "99bd2576-4d08-4cf0-a31f-d49ae7cd5ea6")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0)
+			(at 0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -4609,6 +4731,128 @@
 			(uuid "4ecc067d-5d7a-40b6-8ff7-46bba865ddf9")
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(layer "F.Cu")
+		(uuid "6451363f-634f-45b6-a389-512cd6af8452")
+		(at 182.5 54.5)
+		(descr "Mounting Hole 2.2mm, M2, ISO7380")
+		(tags "mounting hole 2.2mm m2 iso7380")
+		(property "Reference" "H3"
+			(at 0 -2.75 0)
+			(layer "F.SilkS")
+			(uuid "5b1a7278-2be2-4351-aedf-c415e4b7e11a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.75 0)
+			(layer "F.Fab")
+			(uuid "2780b3ef-b6c2-461e-a135-fe05f69516ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fe8d092-5f93-4129-9011-b260b979916f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "479b8fa9-3244-432f-8837-7b7f99f25d08")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d14d1381-68e4-4844-a7dc-a25516f77706")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/d4ac171a-c20f-4241-a019-fffa4e149da5")
+		(sheetname "Root")
+		(sheetfile "reminder-sequin.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "f2992452-f5fe-4615-9def-735f989db080")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "20b4343d-7e05-4285-87e3-378a9580301e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dc6f4975-9368-48ae-9d26-d814c8ffe547")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "0e1bb59e-23f8-4010-bc70-bd73cbe1edac")
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6cf3aad4-d32b-4e92-b92b-ad37b7f7ae1e")
@@ -5945,6 +6189,128 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(layer "F.Cu")
+		(uuid "76218d79-cb11-45bd-8891-c42f38015ba4")
+		(at 155.2 82.8)
+		(descr "Mounting Hole 2.2mm, M2, ISO7380")
+		(tags "mounting hole 2.2mm m2 iso7380")
+		(property "Reference" "H2"
+			(at 0 -2.75 0)
+			(layer "F.SilkS")
+			(uuid "1d97a342-5bd7-4d75-9376-c886b8eacc1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.75 0)
+			(layer "F.Fab")
+			(uuid "33d9d678-6859-4ce4-bd3a-0fc2912cc307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43118922-399b-46fb-ab3e-5c029276686c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bd8e171-a6c1-413c-b695-a91b61e67b3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3de76bd8-39b1-4094-886f-16ff5522ff8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/f0d582f4-637b-449a-abdd-bd26f5d28743")
+		(sheetname "Root")
+		(sheetfile "reminder-sequin.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "1070058d-1c88-422e-9952-ac6c0f869262")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "39c867e5-d40c-4acc-adc6-c08a9cdaad9c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "51b08712-e1f9-4484-8311-0bec4aa24f21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "6596bec5-65dd-4d20-b34c-936cff424471")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -8768,6 +9134,128 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+		(layer "F.Cu")
+		(uuid "a4a20844-fe1d-4370-9eea-03e379184f70")
+		(at 164.4 45.5)
+		(descr "Mounting Hole 2.2mm, M2, ISO7380")
+		(tags "mounting hole 2.2mm m2 iso7380")
+		(property "Reference" "H1"
+			(at 0 -2.75 0)
+			(layer "F.SilkS")
+			(uuid "a7700302-04ec-4801-9ee4-e6fb2800eba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 2.75 0)
+			(layer "F.Fab")
+			(uuid "785a1fb3-4c15-4e82-b357-b2f3ce314bdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00eac4af-5ba1-4ee7-a8ac-511382e8ee3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d5a5b5a-802f-4482-821f-28ed99eb6d78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae286b8b-19cc-4308-a840-98c2e5b2b75e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/028a690d-2b25-4aab-8dec-c82853870959")
+		(sheetname "Root")
+		(sheetfile "reminder-sequin.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "7aef59f3-fc24-4b2b-9f1b-cd48e6bdaac8")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "86588abb-3eee-4c39-81df-d3992634e8fe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "70148864-7e40-4f08-a9fd-e6a021356e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+				"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+				"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+				"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+				"In29.Cu" "In30.Cu"
+			)
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "input")
+			(uuid "79e5c165-d15f-4b99-b453-16193190cf4f")
 		)
 	)
 	(footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
@@ -17002,6 +17490,86 @@
 		(layers "F.Cu" "B.Cu")
 		(net 3)
 		(uuid "114faba0-bee8-46ee-a1cf-5b49ab25c2c8")
+	)
+	(segment
+		(start 173.59 80.33)
+		(end 173.64 80.28)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "52783a1d-7b3d-4b8e-9fc5-268ed50db63f")
+	)
+	(segment
+		(start 172.64 79.41)
+		(end 172.64 80.28)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "6ff13951-3d63-499c-a4a8-aee8719bee84")
+	)
+	(segment
+		(start 172.64 80.28)
+		(end 172.69 80.33)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "80290d8f-c706-4bee-9e48-4e94369d21a8")
+	)
+	(segment
+		(start 172.69 80.33)
+		(end 173.59 80.33)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "8ad541a2-7c79-4895-8688-4ccf5f1bfb0d")
+	)
+	(segment
+		(start 173.64 80.28)
+		(end 173.64 79.41)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "d5f385c5-02bd-4d55-bbc0-cc180a8aef03")
+	)
+	(segment
+		(start 173.14 79.41)
+		(end 173.14 78.54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "575128bb-7d69-410c-b02d-b74e857f31f9")
+	)
+	(segment
+		(start 173.19 78.49)
+		(end 174.09 78.49)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "74a6c083-5b46-48ed-931c-af8d55582ca2")
+	)
+	(segment
+		(start 174.09 78.49)
+		(end 174.14 78.54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "79eeb43c-76d3-4bf6-baa5-fa7820936a27")
+	)
+	(segment
+		(start 173.14 78.54)
+		(end 173.19 78.49)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "90c0a07a-ef46-4503-974e-4b3056493a88")
+	)
+	(segment
+		(start 174.14 78.54)
+		(end 174.14 79.41)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "e975a981-c682-4336-92f7-678339132aa3")
 	)
 	(segment
 		(start 178.425 47.5)
