@@ -563,6 +563,12 @@
           "label": "Cost",
           "name": "Cost",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey PN",
+          "name": "Digikey PN",
+          "show": false
         }
       ],
       "filter_string": "",

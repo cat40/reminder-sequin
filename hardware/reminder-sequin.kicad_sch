@@ -3389,6 +3389,12 @@
 		(uuid "30b88b1f-61b0-4cd5-99e5-720bdea804fc")
 	)
 	(junction
+		(at 92.71 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3af1b818-fc2d-47e8-8e09-53579f646989")
+	)
+	(junction
 		(at 207.01 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3417,6 +3423,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c85db25-765e-46d6-9a5d-33b7f943ee85")
+	)
+	(junction
+		(at 92.71 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7159d818-13ad-4a57-ba62-1280d452f50a")
 	)
 	(junction
 		(at 113.03 33.02)
@@ -3453,6 +3465,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e34bdade-4775-49a8-8845-04d38bc0dc6f")
+	)
+	(junction
+		(at 95.25 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac6ce4c-865a-48dd-a753-caef2ace4cbc")
 	)
 	(junction
 		(at 69.85 54.61)
@@ -3645,6 +3663,16 @@
 			(type default)
 		)
 		(uuid "126ed765-ab3e-41e9-b7f3-d54a05814548")
+	)
+	(wire
+		(pts
+			(xy 95.25 27.94) (xy 92.71 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a947bda-159f-4d85-85de-17ee4a562bce")
 	)
 	(wire
 		(pts
@@ -3898,6 +3926,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 33.02) (xy 95.25 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d930032-1312-4a42-88e5-5a455640ad52")
+	)
+	(wire
+		(pts
 			(xy 17.78 55.88) (xy 17.78 59.69)
 		)
 		(stroke
@@ -3985,6 +4023,16 @@
 			(type default)
 		)
 		(uuid "810ac79b-53a1-4a16-9f18-aeb26b42e230")
+	)
+	(wire
+		(pts
+			(xy 92.71 19.05) (xy 92.71 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a16868-1b59-4902-9476-58c9a5910420")
 	)
 	(wire
 		(pts
@@ -4148,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 21.59) (xy 92.71 35.56)
+			(xy 92.71 21.59) (xy 92.71 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4295,6 +4343,16 @@
 			(type default)
 		)
 		(uuid "ca52331c-8e8e-43fd-a20a-fdfa748e79e4")
+	)
+	(wire
+		(pts
+			(xy 92.71 27.94) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5e616b-7370-4b51-97c4-25eedd49ac9d")
 	)
 	(wire
 		(pts
@@ -4588,16 +4646,6 @@
 		)
 		(uuid "6bc8f979-ead7-490b-87a0-e1a688047306")
 	)
-	(text "Need to figure out how to use\nthis for power when plugged in"
-		(exclude_from_sim no)
-		(at 260.35 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5d894d3-56d5-483c-975b-662e641661d3")
-	)
 	(text "Vf=2.1V, If=7.2mA\nIf rated = 20mA"
 		(exclude_from_sim no)
 		(at 168.656 66.294 0)
@@ -4657,6 +4705,16 @@
 			(justify left bottom)
 		)
 		(uuid "152498c7-ef36-41bd-95c8-0d9ffe5bbbe5")
+	)
+	(label "BATTERY_SENSE"
+		(at 87.63 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "277e53eb-fd5b-4f2a-af1c-c9de8cbedae8")
 	)
 	(label "UART_TX"
 		(at 134.62 29.21 180)
@@ -5902,6 +5960,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "464a186d-9148-4311-a313-fde238e4af6a")
+		(property "Reference" "#PWR34"
+			(at 92.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 92.71 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ed63d0f-9214-4f93-9992-43bf1a10cfa6")
+		)
+		(instances
+			(project ""
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
+					(reference "#PWR34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32L0:STM32L011F4Px")
 		(at 92.71 58.42 0)
 		(unit 1)
@@ -6415,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
 			(at 176.53 142.24 90)
 			(effects
 				(font
@@ -8369,7 +8493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 66.04 130.81 0)
 			(effects
 				(font
