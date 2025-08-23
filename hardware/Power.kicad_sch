@@ -1925,7 +1925,7 @@
 		)
 		(uuid "53609679-26b0-41db-ba67-ee477df3d1bc")
 	)
-	(text "Need to change FB for 3v3"
+	(text "Need to change FB for 3v3\n(should be 453k)"
 		(exclude_from_sim no)
 		(at 147.828 78.994 0)
 		(effects
@@ -3511,7 +3511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61023.pdf"
 			(at 138.43 50.8 0)
 			(effects
 				(font
