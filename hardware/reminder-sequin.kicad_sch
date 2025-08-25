@@ -3976,16 +3976,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 130.81) (xy 74.93 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70bd2bed-6b38-4a11-b399-75df91b36d02")
-	)
-	(wire
-		(pts
 			(xy 74.93 130.81) (xy 74.93 134.62)
 		)
 		(stroke
@@ -4316,7 +4306,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 130.81) (xy 60.96 130.81)
+			(xy 50.8 130.81) (xy 62.23 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4456,13 +4446,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 115.57) (xy 50.8 118.11)
+			(xy 50.8 113.03) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5705167-30a1-4d4d-9a33-876eaa52686d")
+	)
+	(wire
+		(pts
+			(xy 69.85 130.81) (xy 74.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79583e4-0183-43b7-aa08-f5f837d7c595")
 	)
 	(wire
 		(pts
@@ -4656,7 +4656,7 @@
 		)
 		(uuid "e15f166b-f86f-4c43-b4a9-a1f9b6556cfe")
 	)
-	(text "3V < VDD < 3.5V"
+	(text "3V < 3V3 < 3.5V"
 		(exclude_from_sim no)
 		(at 187.198 168.148 0)
 		(effects
@@ -4697,7 +4697,7 @@
 		(uuid "12cc8fdd-136b-4cb9-9ade-139f2e1ce9ba")
 	)
 	(label "PHOTORESISTOR"
-		(at 105.41 43.18 0)
+		(at 105.41 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4797,7 +4797,7 @@
 		(uuid "4afbd09d-119f-40dc-9ce5-fc39e95087cd")
 	)
 	(label "BUTTON"
-		(at 105.41 50.8 0)
+		(at 105.41 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4817,7 +4817,7 @@
 		(uuid "65421419-af4d-49ce-8f78-28b8bb4db1d4")
 	)
 	(label "BATTERY_SENSE"
-		(at 105.41 45.72 0)
+		(at 105.41 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4827,7 +4827,7 @@
 		(uuid "6aa4e6c6-7e24-4a1c-95cf-6fc620f52634")
 	)
 	(label "YELLOW"
-		(at 105.41 55.88 0)
+		(at 105.41 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4847,7 +4847,7 @@
 		(uuid "740ddbbb-d8d0-4ea5-b139-c24609adba4a")
 	)
 	(label "RED"
-		(at 105.41 53.34 0)
+		(at 105.41 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4887,7 +4887,7 @@
 		(uuid "9350eb5c-b066-4d85-9fed-7b3747b09883")
 	)
 	(label "GREEN"
-		(at 105.41 58.42 0)
+		(at 105.41 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4917,7 +4917,7 @@
 		(uuid "b411a1ad-cad0-4d1c-96a1-6d512bf85975")
 	)
 	(label "VIBRATION"
-		(at 105.41 48.26 0)
+		(at 105.41 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5191,6 +5191,82 @@
 			(project ""
 				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0309e178-fbf5-45ad-8112-71ea210f66ef")
+		(property "Reference" "R11"
+			(at 66.04 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 66.04 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.04 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25905"
+			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2127fdec-f88a-46ed-b6e3-ccf3bb897c09")
+		)
+		(pin "1"
+			(uuid "4b2fd788-befc-44aa-8faf-5b3c086afd0d")
+		)
+		(instances
+			(project "reminder-sequin"
+				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6161,7 +6237,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 50.8 115.57 0)
+		(at 50.8 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6170,7 +6246,7 @@
 		(fields_autoplaced yes)
 		(uuid "51fd055f-e62b-4462-90ff-6652447b894f")
 		(property "Reference" "#PWR19"
-			(at 50.8 119.38 0)
+			(at 50.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6255,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 50.8 110.49 0)
+			(at 50.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 115.57 0)
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 115.57 0)
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 50.8 115.57 0)
+			(at 50.8 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,96 +8456,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 50.8 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c73e4e99-35b8-486e-9482-7f7929df5806")
-		(property "Reference" "R4"
-			(at 53.34 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 53.34 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.022 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost" ""
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" " C25744"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d5dee8e-9f48-46fd-b36a-cf7ab551285d")
-		)
-		(pin "2"
-			(uuid "6f97861f-5434-457e-9a64-bdced339ec57")
-		)
-		(instances
-			(project "reminder-sequin"
-				(path "/3313c311-f70a-45a8-bbf4-c9e4cbd18d5c"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST_Temperature")
-		(at 66.04 130.81 0)
+		(at 50.8 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8478,23 +8466,25 @@
 		(fields_autoplaced yes)
 		(uuid "c7dd58f9-6029-4192-abfd-6df912db1319")
 		(property "Reference" "SW3"
-			(at 66.04 121.92 0)
+			(at 53.34 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Vibration_Detect"
-			(at 66.04 124.46 0)
+			(at 53.34 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 66.04 130.81 0)
+			(at 50.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +8493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 135.89 0)
+			(at 55.88 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8502,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
-			(at 66.04 130.81 0)
+			(at 50.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,7 +8687,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ddbb87e6-7348-4368-a572-68a30f51be23")
 		(property "Reference" "#PWR2"
 			(at 115.57 40.64 0)
@@ -8709,7 +8698,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 39.37 0)
+			(at 130.81 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9038,7 +9027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "3V3"
 			(at 201.93 114.3 0)
 			(effects
 				(font
@@ -9250,7 +9239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "3V3"
 			(at 175.26 110.49 0)
 			(effects
 				(font
